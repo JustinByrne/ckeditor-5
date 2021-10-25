@@ -4,7 +4,7 @@ Built from source ckeditor 5. To use this version add `./build/ckeditor.js` to y
 
 ```js
 ClassicEditor
-    .create( document.querySelector( '.editor' ), {
+    .create(document.querySelector('.editor'), {
         toolbar: {
             items: [
                 'heading',
@@ -49,13 +49,13 @@ ClassicEditor
             ]
         },
     } )
-    .then( editor => {
+    .then(editor => {
         window.editor = editor;
-    } )
-    .catch( error => {
-        console.error( 'Oops, something went wrong!' );
-        console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
-        console.warn( 'Build id: ev8x3bvarobq-2wtseetmv2wp' );
-        console.error( error );
-    } );
+    })
+    .catch(error => {
+        console.error('Oops, something went wrong!');
+        console.error('Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:');
+        console.warn('Build id: bu5oq4p94s32-oltxki2fzkux');
+        console.error(error);
+    });
 ```
