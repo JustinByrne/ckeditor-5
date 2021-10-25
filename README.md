@@ -11,6 +11,7 @@ ClassicEditor
                 '|',
                 'bold',
                 'italic',
+                'fontColor',
                 'link',
                 'bulletedList',
                 'numberedList',
